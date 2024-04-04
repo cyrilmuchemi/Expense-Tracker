@@ -38,7 +38,7 @@ const expenses = computed(() => {
 })
 
 const generateUniqueId = () => {
-  return Math.floor(Math.random * 10000)
+  return Math.floor(Math.random() * 10000)
 }
 
 const handleTransactionSubitted = (transactionData) => {
